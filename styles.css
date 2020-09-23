@@ -1,0 +1,20 @@
+body {
+  background: lightblue;
+}
+h2 {
+  color:navy;
+}
+h3 {
+  color:navy;
+}
+#nav {
+  color:rosybrown;
+}
+a{
+  background: rosybrown;
+  color:beige;
+  padding: 0.5px;
+}
+a:hover{
+  background:grey;
+}
