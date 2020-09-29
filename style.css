@@ -1,18 +1,18 @@
 body {
-  background: lightblue;
+  background: #e0dab8;
 }
 h2 {
-  color:navy;
+  color:#303036;
 }
 h3 {
-  color:navy;
+  color:#303036;
 }
 #nav {
   color:rosybrown;
 }
 a{
-  background: rosybrown;
-  color:beige;
+  background: white;
+  color:#303036;
   padding: 0.5px;
 }
 a:hover{
