@@ -6,44 +6,268 @@
       <title>Yooree Park</title>
       <meta name="viewport" content="width=device-width, initial scale=1" />
       <meta name="description" content="Homepage for my web 1 class" />
-      <meta name="author" content="Yooree" />
+      <meta name="author" content="Yooree Park" />
       <link rel="stylesheet" href="style.css">
+      <!--*{box-sizing: border-box;} -->
+
+      <style>
+
+      .heading{
+        position: relative;
+        top: 20px;
+      }
+
+      .header{
+        background-position: top 30px;
+      }
+
+      *{box-sizing: border-box;}
+         html {height: 100% scroll-behavior: smooth;}
+         body{
+           font-family: "PT Serif", Arial, sans-serif;
+           position: relative;
+           padding-bottom: 6em;
+           min-height: 100%;
+         }
+
+      p { line-height: 1.5em; }
+      nav {
+        position: fixed;
+        left: 0;
+        top: 0px;
+        height: 3em;
+        width: 100%;
+        color: #fff;
+        background-color: #303036;/*black*/
+        margin: 0;
+        margin-top: -10px;
+        padding: 0 0 10px 0;
+        z-index: 10;
+      }
+      nav a{
+        text-decoration: none;
+        color:white;
+      }
+
+      nav a:hover { color:#e0dab8;}/*yellow*/
+      nav ul {list-style-type: none}
+      nav ul li {
+        display: inline;
+        margin-top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right: 1px solid #999;
+      }
+      nav ul li a img {vertical-align: text-bottom;}
+      nav ul li:last-child {border-right:none}
+
+      #main {
+        margin-top: 3em;
+        padding: 0 2em 0 2em;
+        padding-bottom: 100px;
+      }
+
+      header picture img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      video {
+        width: 100%;
+        height: 100%
+      }
+
+      section {
+        margin-top: 4em;
+      }
+
+      footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+      }
+
+      /* Creating a CSS Dropdown Menu */
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+          cursor: pointer;
+          position: relative;
+          display: inline-block;
+      }
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          min-width: 10em;
+          background-color: #f9f9f9;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 20;
+      }
+      /* Links inside the dropdown */
+      .dropdown-content a {
+          background-color: rgba(0,0,0,0.8);
+          color: white;
+          padding: .5em 2em .5em 1em;
+          text-decoration: none;
+          border-bottom: 1px solid gray;
+          display: block;
+      }
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+
+      /* Adding Media Queries */
+      @media screen and (max-width: 600px) {
+        body {
+          background-color: black;
+          color: white;
+        }
+      }
+    /*    *{box-sizing: border-box;}
+        html {height: 100% scroll-behavior: smooth;}
+        body{
+          font-family: "PT Serif", Arial, sans-serif;
+          position: relative;
+          padding-bottom: 6em;
+          min-height: 100%;
+        }
+
+        p { line-height: 1.5em;
+          nav{
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 3em;
+            width: 100%;
+            color:
+          }
+        }
+
+        nav a{
+          text-decoration: none;
+          color: #303036;
+        }
+        nav a:hover {color: white;}
+        nav ul {list-style-type: none}
+        nav ul li{
+          display: inline;
+          margin-top: 0;
+          padding-left: 10px;
+          padding-right: 10px;
+          border-right: 1px solid #999;
+        }
+        nav ul li a img{vertical-align: text-bottom;}
+        nav ul li:last-child{border-right: none}
+
+        #main{
+          margin-top: 3em;
+          padding: 0 2em 0 2em;
+          padding-bottom:
+        }
+
+        header picture img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        section {
+        margin-top: 4em;
+      }
+
+      footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+      }
+
+        .dropdown {
+          cursor: pointer;
+          position: relative;
+          display: inline-block;
+        }
+
+        .dropdown{
+          display: none;
+          position: absolute;
+          min-width: 10em;
+          background-color: #303036;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          z-index: 20;
+        }
+
+        .dropdown-content a{
+          background-color: rgba(0, 0, 0, 0.8);
+          color: white;
+          padding: .5em 2em .5em 1em;
+          text-decoration: none;
+          border-bottom: 1px solid gray;
+          display: block;
+        }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        @@media screen and (max-width: 600px){
+          body {background-color: black;
+          color: white;
+          }
+        }*/
+
+
+    </style>
+
     </head>
 
-    <header id="home">
-        <img srcset="img/header_image3.jpg 480w,
-                      img/header_image2.jpg 960w,
-                        img/header_image1.jpg 1280w"
-                        sizes="(max-width: 600px) 480px,800px"
-              src="img/header_image1.jpg"
-              alt="dusk">
-
-      <h2>Yooree's MEDP 285 Homepage</h2> <!-- up to h6; newspaper -->
-    </header>
-
     <body>
+
+        <h1 class="heading">Yooree's MEDP 285 Homepage</h1> <!-- up to h6; newspaper -->
+      <!--<header>HEADER</header>-->
+
+        <div id="header">
+          <img srcset="img/header_image3.jpg 480w,
+                        img/header_image2.jpg 960w,
+                          img/header_image1.jpg 1280w"
+                          sizes="(max-width: 480px) 100vw,
+                          (max-width: 960px) 90vw,
+                          (max-width: 1280px) 70vw, 1280px"
+                src="img/header_image3.jpg"
+                alt="dusk">
+
+              </div>
       <!-- navigation -->
       <nav id="nav">
           <ul> <!--unordered list-->
               <li><a href="#home">Home</a></li> <!-- a = anchor -->
-              <li><a href="#projects">Projects</a></li>
+              <li class="dropdown">
+                <a>Projects</a>
+                  <div id="dropdown" class="dropdown-content">
+                    <a href="video.html" target="_blank">Video Assignment</a>
+                    <a href="slideshow.html" target="_blank">Slideshow Assignment</a>
+                    <a href="layeredcollage.html" target="_blank">Layered Collage Assignment</a>
+                  </div>
+                </li>
               <li><a href="#about">About</a></li>
               <li><a href="https://yooreepark0523.wixsite.com/medp285" target="_blank">Blog</a></li>
               <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
 
-
-        <hr />
-          <section id="about">
-            <h1>HELLO</h1>
+            <h2>HELLO</h2>
             <p> <em>Welcome</em> to my website. <body>
-              <h3>Video Assignment</h3>
-              <a href="video.html">Video Assignment</a>
-              <h3>Slideshow Assignment</h3>
-              <a href="slideshow.html">Slideshow Assignment</a>
 
             </body>
-
 
       </html>
