@@ -1,0 +1,62 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  /* background-image: url/final("sad.jpg"); */
+  background-color: #F5F5F5;
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  display: flex;
+  width: 90%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+}
+
+.logo-container,
+.nav-links{
+  display: flex;
+}
+.logo-container{
+  flex: 1;
+}
+
+.logo{
+  font-weight: 400;
+  margin: 5px;
+}
+nav{
+  flex: 2;
+}
+.nav-links{
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-link{
+  color: darkgray;
+  font-size: 18px;
+  text-decoration: none;
+}
+.box{
+  width: 800px;
+  /* max-width: 80%; */
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+.btn-grid{
+  display: grid;
+  grid-template-columns: repeat(2,auto;)
+  gap: 10px;
+}
+.btn{
+  /* background-color: blue; */
+}
