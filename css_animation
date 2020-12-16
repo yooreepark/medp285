@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>clydie wydie</title>
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<meta name="description" content="homepage">
+	<meta name="author" content="clyde">
+
+	<link rel="icon" type="image/png" href="assignmentpics/favicon.png"/>
+	<link rel="icon" type="image/png" href="https://example.com/favicon.png"/>
+
+	<link rel="stylesheet" href="animate.css">
+
+	<style>
+      	div {
+      		width: 1280;
+      		font-size: 32px;
+      		text-align: center;
+      		color: white;
+      	}
+      	@keyframes fadeInOut {
+			0% {
+				opacity: 0;
+			}
+
+			15% {
+				opacity: 1;
+			}
+
+			85% {
+				opacity: 1;
+			}
+
+			100% {
+				opacity: 0%;
+			}
+		}
+		#main {
+			background-image: url(assignmentpics/animationback.gif);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: relative;
+			font-size: 16px;
+      	}
+      	.box1 {
+      		opacity: 0%;
+      		margin-top: -100px;
+      		animation-name: fadeInOut;
+      		animation-delay: 17.08s;
+			animation-duration: 2.79s;
+			animation-iteration-count: 1;
+      	}
+      	.box2{
+      		opacity: 0%;
+      		margin-top: -38px;
+      		animation-name: fadeInOut;
+      		animation-delay: 20.09s;
+			animation-duration: 3.850s;
+			animation-iteration-count: 1;
+      	}
+      	.box3{
+      		opacity: 0%;
+      		margin-top: -38px;
+      		animation-name: fadeInOut;
+      		animation-delay: 24.464s;
+			animation-duration: 2.545S;
+			animation-iteration-count: 1;
+      	}
+      	.box4{
+      		opacity: 0%;
+      		margin-top: -38px;
+      		animation-name: fadeInOut;
+      		animation-delay: 28.536s;
+			animation-duration: 3.52s;
+			animation-iteration-count: 1;
+      	}
+      	.box5{
+      		opacity: 0%;
+      		margin-top: -38px;
+      		animation-name: fadeInOut;
+      		animation-delay: 33.776s;
+			animation-duration: 2.745s;
+			animation-iteration-count: 1;
+      	}
+      	.box6{
+      		opacity: 0%;
+      		margin-top: -38px;
+      		animation-name: fadeInOut;
+      		animation-delay: 37.802s;
+			animation-duration: 3.505s;
+			animation-iteration-count: 1;
+      	}
+      	.box7{
+      		opacity: 0%;
+      		margin-top: -38px;
+      		animation-name: fadeInOut;
+      		animation-delay: 42s;
+			animation-duration: 2.5s;
+			animation-iteration-count: 1;
+      	}
+      	.box8{
+      		opacity: 0%;
+      		margin-top: -38px;
+      		animation-name: fadeInOut;
+      		animation-delay: 45.445s;
+			animation-duration: 4.31s;
+			animation-iteration-count: 1;
+      	}
+      	.box9{
+      		opacity: 0%;
+      		margin-top: -38px;
+      		animation-name: fadeInOut;
+      		animation-delay: 49.774s;
+			animation-duration: 3.195s;
+			animation-iteration-count: 1;
+      	}
+
+	</style>
+</head>
+<body>
+	<header id="home">
+		<h1>
+			&nbsp; &nbsp;_(┐「ε:)_<b><i> &nbsp; welcome....</i></b>
+		</h1>
+		<nav id="nav">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			<a href="index.html">home</a> &nbsp; &nbsp;
+			<a href="about.html">about</a> &nbsp; &nbsp;
+			<a href="assignments.html">assignments</a> &nbsp; &nbsp;
+			<a href="final.html">game</a>
+		</nav>
+	</header>
+	<p style="text-align: center;">
+		<!--<iframe src="assignmentpics/spelunking.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none;"></iframe>  -->
+		<audio controls autoplay>
+				<source src="assignmentpics/Spelunking.mp3" type="audio/mpeg">
+		</audio>
+	</p>
+	<div id="main" style="padding-top: 750px;">
+		<div class="box1">
+			There is a place where the sidewalk ends
+		</div>
+		<div class="box2">
+			And before the street begins,
+		</div>
+		<div class="box3">
+			And there the grass grows soft and white,
+		</div>
+		<div class="box4">
+			tAnd where the sun burns crimson bright,
+		</div>
+		<div class="box5">
+			And where the moon-bird rests from his flight
+		</div>
+		<div class="box6">
+			To cool in the peppermint wind.
+		</div>
+		<div class="box7">
+			for the lamplight
+		</div>
+		<div class="box8">
+			where you lie
+		</div>
+		<div class="box9">
+			where you lie
+		</div>
+	</div>
+
+</body>
+</html>

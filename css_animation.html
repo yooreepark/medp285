@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link rel="icon" href="img/favicon.ico">
+  <title>CSS Animation</title>
+  <meta name="viewport" content="width=device-width, initial scale=1" />
+  <meta name="author" content="Yooree Park" />
+  
+
+  <style>
+      div{
+        width: 400px;
+        height: 50px;
+        background: blue;
+        color: gray;
+        position: relative;
+        animation: mymove 5s infinite;
+      }
+
+      div{
+        animation-timing-function: linear;
+      }
+      div{
+        animation-timing-function:ease;
+      }
+      div{
+        animation-timing-function:ease-in;
+      }
+      div{
+        animation-timing-function:ease-out;
+      }
+      div{
+        animation-timing-function:ease-in-out;
+      }
+
+      @keyframes mymove {
+        0%   {top: 0px; left: 0px; background: red;}
+        25%  {top: 50px; left: 550px; background: blue;}
+        50%  {top: 100px; left: 900px; background: yellow;}
+        75%  {top: 200px; left: 100px; background: green;}
+        100% {top: 0px; left: 0px; background: red;}
+      }
+      </style>
+
+    </head>
+    <body>
+      <div class="div1">
+        There is a place where the sidewalk ends
+      </div>
+      <div class="div2">
+        And before the street begins,
+      </div>
+      <div class="div3">
+        And there the grass grows soft and white,
+      </div>
+      <div class="div4">
+        And where the sun burns crimson bright,
+      </div>
+      <div class="div5">
+      And where the moon-bird rests from his flight
+      </div>
+      <div class="div5">
+      To cool in the peppermint wind.
+      </div>
+      <div class="div6">
+      Let us leave this place where the smoke blows black
+      </div>
+      <div class="div7">
+      And the dark street winds and bends.
+      </div>
+      <div class="div8">
+      Past the pits where the asphelt flowers grow
+      </div>
+      <div class="div9">
+      We shall walk with a walk that is measured and slow,
+      </div>
+      <div class="div10">
+      And watch where the chalk-white arrows go
+      </div>
+      <div class="div11">
+      To the place where the sidewalk ends.
+      </div>
+
+    </body>
+    </html>

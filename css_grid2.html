@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="icon" href="img/favicon.ico">
+  <title>CSS Grid 2</title>
+  <meta name="viewport" content="width=device-width, initial scale=1" />
+  <meta name="description" content="Layered Collage Assignment" />
+  <meta name="author" content="Yooree Park" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+  
+      .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        grid-auto-rows: minmax(100px, auto);
+      }
+
+      .grid > div{
+        background: #E6D3A3;
+        padding: 1em;
+        position: center;
+      }
+      .grid > div:nth-child(odd){
+        background: #FFC2B4;
+      }
+
+  </style>
+</head>
+  <h1>The Sky in 2020</h1>
+
+<body>
+  <div class="grid">
+    <div>
+      <img src="sky/sky1.jpg" width="300">
+    </div>
+    <div>
+      <img src="sky/sky2.jpg" width="300">
+    </div>
+    <div>
+      <img src="sky/sky3.jpg" width="300">
+    </div>
+    <div>
+      <img src="sky/sky4.jpg" width="300">
+    </div>
+    <div>
+      <img src="sky/sky5.jpg" width="300">
+    </div>
+    <div>
+      <img src="sky/sky6.jpg" width="300">
+    </div>
+    <div>
+      <img src="sky/sky7.jpg" width="300">
+    </div>
+    <div>
+      <img src="sky/sky8.jpg" width="300">
+    </div>
+    <div>
+      <img src="sky/sky9.jpg" width="300">
+    </div>
+  </body>
+  </html>

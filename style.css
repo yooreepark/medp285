@@ -10,11 +10,3 @@ h3 {
 #nav {
   color:#303036;
 }
-a{
-  background: white;
-  color:#303036;
-  padding: 0.5px;
-}
-a:hover{
-  background:grey;
-}

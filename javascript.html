@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head> <!--not visible; contains info -->
+      <meta charset="utf-8" />
+      <link rel="icon" href="img/favicon.ico">
+      <title>Yooree Park</title>
+      <meta name="viewport" content="width=device-width, initial scale=1" />
+      <meta name="description" content="Homepage for my web 1 class" />
+      <meta name="author" content="Yooree Park" />
+      <link href="javascript.css" rel="stylesheet">
+
+<body>
+
+<script>
+
+  const startButton = document.getElementById(start-btn)
+
+  startButton.addEventListener('click', startGame)
+  function startGame(){
+    console.log('Started')
+
+  }
+
+  function setNextQuestion(){
+
+  }
+
+  function selectAnswer(){
+
+  }
+  </script>
+  <button onclick='play();'>play</button>
+
+<div class="container">
+  <div id="question-container" class="hide"></div>
+  <div id="question">Question</div>
+  <div id="answer-buttons" class="btn-grid">
+    <button class="btn">Answer 1</button>
+    <button class="btn">Answer 2</button>
+  <div class="controls">
+    <button id="start-btn" class="start-btn btn">Start</button>
+    <button id="next-btn" class="next-btn btn hide">Next</button>
+
+  </div>
+
+</div>
+
+</body>
+
+</html>
